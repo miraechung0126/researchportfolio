@@ -1,7 +1,7 @@
 title: Mirae Research Portfolio
 description: Temple Food, Health, and Public Health
-baseurl: ""
-url: ""
+baseurl: "/researchportfolio"
+url: "https://miraechung0126.github.io"
 markdown: kramdown
 permalink: pretty
 collections:
