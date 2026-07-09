@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="section">
+  <div class="shell">
+    <div class="section-head">
+      <h2>{{ page.title }}</h2>
+      <div class="lotus-mark"><img src="{{ '/assets/images/lotus.png' | relative_url }}" alt="Lotus decorative icon"></div>
+      {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+    </div>
+    <div class="entry">{{ content }}</div>
+  </div>
+</section>
