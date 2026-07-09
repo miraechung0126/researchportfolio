@@ -1,15 +1,14 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME
+  repo: miraechung0126/researchportfolio
   branch: main
-  # If you later set up an OAuth helper, add base_url here.
 
-site_url: https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/
-display_url: https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/
-logo_url: /assets/images/lotus.png
+site_url: https://miraechung0126.github.io/researchportfolio/
+display_url: https://miraechung0126.github.io/researchportfolio/
+logo_url: /researchportfolio/assets/images/lotus.png
 publish_mode: simple
 media_folder: assets/uploads
-public_folder: /assets/uploads
+public_folder: /researchportfolio/assets/uploads
 
 collections:
   - name: journal
@@ -18,9 +17,15 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {{ label: Title, name: title, widget: string }}
-      - {{ label: Date, name: date, widget: datetime }}
-      - {{ label: Body, name: body, widget: markdown }}
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Body
+        name: body
+        widget: markdown
 
   - name: interviews
     label: Interviews
@@ -28,9 +33,15 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {{ label: Title, name: title, widget: string }}
-      - {{ label: Date, name: date, widget: datetime }}
-      - {{ label: Body, name: body, widget: markdown }}
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Body
+        name: body
+        widget: markdown
 
   - name: sources
     label: Sources & Notes
@@ -38,9 +49,15 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {{ label: Title, name: title, widget: string }}
-      - {{ label: Date, name: date, widget: datetime }}
-      - {{ label: Body, name: body, widget: markdown }}
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Body
+        name: body
+        widget: markdown
 
   - name: reflections
     label: Final Reflection
@@ -48,6 +65,12 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {{ label: Title, name: title, widget: string }}
-      - {{ label: Date, name: date, widget: datetime }}
-      - {{ label: Body, name: body, widget: markdown }}
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Body
+        name: body
+        widget: markdown
