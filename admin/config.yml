@@ -3,12 +3,12 @@ backend:
   repo: miraechung0126/researchportfolio
   branch: main
 
-site_url: https://miraechung0126.github.io/researchportfolio/
-display_url: https://miraechung0126.github.io/researchportfolio/
-logo_url: /researchportfolio/assets/images/lotus.png
+site_url: https://miraechung.com/
+display_url: https://miraechung.com/
+logo_url: /assets/images/lotus.png
 publish_mode: simple
 media_folder: assets/uploads
-public_folder: /researchportfolio/assets/uploads
+public_folder: /assets/uploads
 
 collections:
   - name: journal
